@@ -14,7 +14,7 @@ int main(){
 	char tableList[] = {' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' '};
 	char mainList[] = {'!','@','#','$','%','&','+','?','!','@','#','$','%','&','+','?'};
 	
-	int size = sizeof(mainList); // or sizeof(mainList) - char = 1byte;
+	int size = sizeof(mainList); // or sizeof(mainList)/sizeof(char) - char = 1byte;
 	int first,second;
 	int point = 0;
 	
